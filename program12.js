@@ -7,7 +7,7 @@ low = 0;
 up = 0;
 isPresent = false;
 
-while(low<=p.length-1 && up <= q.length-1){
+while(low <= p.length-1 && up <= q.length-1){
 if(p[low] == q[up]){
     isPresent = true;
     console.log(p[low]);

@@ -1,7 +1,9 @@
 a=[10,5,2,13,58,1];
 
 y =a.find(num=>num>10);
+z =a.findIndex(num=>num>10);
 console.log(y);
+console.log(z);
 
 
 fruits = ['mango', 'pineapple', 'orange'];
