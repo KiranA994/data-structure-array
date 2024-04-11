@@ -11,7 +11,7 @@ for(let y of arr){
     sum = sum + y;
 }
 
-for( let i of arr){
-    
+for(let i of arr){
+    x.push(sum-i)
 }
 console.log(x);
